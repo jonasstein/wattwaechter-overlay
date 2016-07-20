@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+	<longdescription>
+		Wattwaechter uses simulated antenna data in the NEC-2 (Numerical Electromagnetics Code 2) format to 
+		predict the electro magnetic radiation of antennas. This package includes a database covering most 
+		amateur radio antennas. The results can be used to describe safety distances as required by
+		the german Federal Network Agency (Bundesnetzagentur)
+	</longdescription>
+  	<upstream>
+  		<bugs-to>414-Wattwaechter@BNetzA.de</bugs-to>
+		<doc>http://emf3.bundesnetzagentur.de/pdf/Programmbeschreibung_WW_2014_05_06.pdf</doc>
+	</upstream>
 	<maintainer type="person">
 		<email>sping@gentoo.org</email>
 		<name>Sebastian Pipping</name>
